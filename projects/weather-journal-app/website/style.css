@@ -1,0 +1,63 @@
+body {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .holder {
+    margin-bottom: 10px;
+  }
+  
+  .headline {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .zip,
+  .feel {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .zip input,
+  .feel textarea {
+    margin: 5px 0;
+  }
+  
+  .feel textarea {
+    resize: none;
+  }
+  
+  #generate {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  #entryHolder {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .data {
+    margin: 5px 0;
+  }
